@@ -1,0 +1,74 @@
+.titlediv {
+    background-color: #e5f4fd;
+    height: 60px;
+    width: 100%;
+    float: right;
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+}
+.logo {
+    float: left;
+    height: 56px;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+.titlediv_ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 100px;
+    padding: 0;
+    float: right;
+}
+.titlediv_ul > li {
+    float: right;
+}
+.drop-down > a {
+    display: block;
+    width: 100px;
+    line-height: 60px;
+    font-size: 14px;
+    color: rgba(31, 31, 31, 0.90);
+    text-decoration: none;
+}
+.drop-down > a:hover {
+    width: 100px;
+    color: #60baed;
+}
+.drop-down {
+    width: 100px;
+    position: relative;
+}
+.drop-down-content {
+    padding: 0;
+    display: none;
+}
+.drop-down-content > li {
+    list-style-type: none;
+}
+.drop-down:hover .drop-down-content {
+    display: block;
+    background-color: rgba(229,244,253,0.70);
+}
+.drop-down-content > li > a {
+    display: block;
+    width: 100px;
+    line-height: 60px;
+    font-size: 14px;
+    color: rgba(31, 31, 31, 0.70);
+    text-decoration: none;
+}
+.drop-down-content > li > a:hover {
+    color: #60baed;
+}
+.nodrop > a {
+    display: block;
+    width: 100px;
+    line-height: 60px;
+    font-size: 14px;
+    color: rgba(31, 31, 31, 0.90);
+    text-decoration: none;
+}
+.nodrop > a:hover {
+    color: #60baed;
+}

@@ -103,7 +103,6 @@ html, body {
     font-size: 5vw;
 }
 .main-block{
-    width: 320px;
 }
 .text {
     font-family: STKaiti;
@@ -120,4 +119,10 @@ html, body {
 }
 .fieldset-main-text{
     border:solid #e5f4fd 2px;
+    display: inline-block;
+}
+.sub-block{
+    width: 320px;
+    margin: auto;
+    display: inline-block;
 }

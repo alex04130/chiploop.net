@@ -126,3 +126,20 @@ html, body {
     margin: auto;
     display: inline-block;
 }
+.mid-sub-block{
+    width: 32%;
+    margin: auto;
+    display: inline-block;
+}
+.mid-sub-block-img{
+    width: 40%;
+    margin: auto;
+    float: left;
+}
+.mid-sub-text{
+    width: 60%;
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+    padding-left: 10%;
+}

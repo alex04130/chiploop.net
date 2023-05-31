@@ -120,7 +120,7 @@ html, body {
 .fieldset-main-text{
     border:solid #e5f4fd 5px;
     display: inline-block;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 .sub-block{
     width: 320px;

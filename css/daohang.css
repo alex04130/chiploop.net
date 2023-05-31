@@ -1,5 +1,5 @@
 .titlediv {
-    background-color: rgba(229,244,253,0.80);
+    background-color: rgba(229,244,253,0.90);
     height: 60px;
     width: 100%;
     float: right;
@@ -48,14 +48,14 @@
 }
 .drop-down:hover .drop-down-content {
     display: block;
-    background-color: rgba(229,244,253,0.60);
+    background-color: rgba(229,244,253,0.80);
 }
 .drop-down-content > li > a {
     display: block;
     width: 100px;
     line-height: 60px;
     font-size: 14px;
-    color: rgba(31, 31, 31, 0.70);
+    color: rgba(31, 31, 31, 0.80);
     text-decoration: none;
 }
 .drop-down-content > li > a:hover {

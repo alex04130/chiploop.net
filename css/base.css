@@ -118,8 +118,9 @@ html, body {
     margin:0 auto;
 }
 .fieldset-main-text{
-    border:solid #e5f4fd 2px;
+    border:solid #e5f4fd 5px;
     display: inline-block;
+    border-radius: 5%;
 }
 .sub-block{
     width: 320px;
@@ -134,12 +135,38 @@ html, body {
 .mid-sub-block-img{
     width: 40%;
     margin: auto;
-    float: left;
+    display: inline-block;
 }
 .mid-sub-text{
     width: 55%;
     margin: auto;
     display: inline-block;
     text-align: left;
-    padding-left: 5%;
+    padding-left: 4%;
+    vertical-align: top;
+}
+.friend-link-sub-block{
+    width: 45%;
+    margin: auto;
+    display: inline-block;
+    background-color: rgba(96,186,237,0.2);
+    border: 2px solid;
+    border-color: rgba(96,186,237,0.6);
+    border-radius: 10px;
+}
+.friend-link-sub-block:hover{
+    width: 45%;
+    margin: auto;
+    display: inline-block;
+    background-color: rgba(96,186,237,0.4);
+    border: 2px solid;
+    border-color: rgba(96,186,237,0.4);
+    border-radius: 9px;
+}
+.intro-th{
+    background-color: rgba(96,186,237,1);
+    width: 100%;
+}
+.intro-td{
+    width: 100%;
 }

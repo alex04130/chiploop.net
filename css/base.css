@@ -170,3 +170,13 @@ html, body {
 .intro-td{
     width: 100%;
 }
+.text-td{
+    width: 80%;
+}
+.filetype-td{
+    width: 5%;
+}
+.download-td{
+    width: 15%;
+    text-align: right;
+}
